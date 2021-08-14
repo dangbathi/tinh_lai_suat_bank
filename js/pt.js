@@ -92,10 +92,10 @@ function lai_suat_kep() {
             document.getElementById('noti').innerHTML = 'Vui lòng nhập kỳ hạn';
         } else
             if (y > 0) {
-                total = a * Math.pow((1+l/n),(n*y));
+                total = a * Math.pow((1 + l / n), (n * y));
                 document.getElementById('result2').innerHTML = 'Tổng gốc + lãi là: ' + total + " VND";
             }
-    }else{
+    } else {
         document.getElementById('noti').innerHTML = 'Tiền gửi phải từ 500.000 VND trở lên';
     }
 
