@@ -1,0 +1,75 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/AI.jpg);
+}
+
+.container {
+    padding: 20px;
+    background-color: #FFF;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 8px;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 6px;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.btn{
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 14px 28px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#lsd, #lsk{
+    width: 45%;
+    background-color: #2196F3;
+}
+
+#kq{
+    background-color: #04AA6D;
+    width: 45%;
+}
+
+#btnReset{
+    background-color: #ff9800 ;
+    width: 45%;
+}
+
+.option{
+    text-align: center;
+}
+
+
+select{
+    border: 6px solid transparent;
+    background-color: DodgerBlue;
+    border-radius: 4px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5%;
+    display: none;
+}
+
+#d,#m,#y{
+    display: none;
+}
+

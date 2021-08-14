@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/pt.css">
+    <title>Phuong trinh</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tính Lãi Suất Bank</h1>
+        <div class="option">
+            <button id="lsd" class="btn" onclick="lai_suat_co_ky_han()">Tính lãi đơn</button>
+            <button id="lsk" class="btn" onclick="lai_suat_kep()">Tính lãi kép</button>
+            <h4 id="noti"></h4>
+        </div>
+        <div class="content" id="ptContent">
+            <input type="number" id="a" placeholder="nhập số tiền gửi tối thiểu là 500.000 VND" />
+            <select id="timeMD" onchange="option()">
+                <option value="0" selected>Chọn kỳ hạn</option>
+                <option value="1">Theo tháng</option>
+                <option value="2">Theo ngày</option>
+            </select>
+            <input type="number" id="m" placeholder="nhập số tháng gửi" />
+            <input type="number" id="d" placeholder="nhập số ngày gửi" />
+            <input type="number" id="y" placeholder="nhập số năm gửi" />
+            <div class="option">
+                <button id="btnReset" class="btn" onclick="closeForm()">Reset</button>
+                <h2 id="result1"></h2>
+                <h2 id="result2"></h2>
+            </div>
+        </div>
+    </div>
+    <script src="./js/pt.js"></script>
+</body>
+
+</html>
