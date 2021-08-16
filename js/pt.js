@@ -92,7 +92,7 @@ function lai_suat_kep() {
             document.getElementById('noti').innerHTML = 'Vui lòng nhập kỳ hạn';
         } else
             if (y > 0) {
-                total = a * Math.pow((1 + l / n), (n * y));
+                total = a * Math.pow((1+l),n);
                 document.getElementById('result2').innerHTML = 'Tổng gốc + lãi là: ' + total + " VND";
             }
     } else {
